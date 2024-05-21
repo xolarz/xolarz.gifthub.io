@@ -1,0 +1,64 @@
+article {background-color: black;}
+
+#tituloform { color: black;}
+
+#miformulario {
+    background:#ffbda3;
+    border: 8px double whitesmoke;
+    margin: 25px;
+    border-radius: 8px;
+    padding-left: 30px; /*paddin 30px a la izquierda*/
+    padding-right: 30px; 
+    text-align: center;
+}
+.p_form{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+textarea{
+    width: 250px;
+    height: 100px;
+ 
+}
+.escribo{
+    width:400px;
+}
+.boton1{
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background: #213043;
+    color:rgb(185, 185, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.boton2{
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: #213043;
+    color: rgb(185, 185, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.boton1:hover, .boton2:hover{
+    background: #ffbda3;
+    color: #630;
+}
+.escribo {border: none; 
+    border-radius: 5px;}
+
+.escribo:focus{
+    background: rgb(203, 203, 184);
+}

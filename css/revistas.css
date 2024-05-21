@@ -1,0 +1,22 @@
+.revista {float: none;
+    width: 150px;
+    height:185px;
+     margin: 10px;
+        border-radius: 5px;
+        padding: 15px;
+        border: 10px solid black ;
+       
+    }
+
+    .revista:hover{ 
+        background: #ca9fc3 ;
+    box-shadow: 0 5px 5px 10px whitesmoke;}
+
+    #txtrev  
+    {float:right;
+        width: 75%;
+    text-align: justify;
+padding-right:15px;
+}
+
+ 

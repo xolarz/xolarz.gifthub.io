@@ -1,0 +1,198 @@
+*
+{margin: 0;
+padding: 0;}
+
+#contenedor
+{  width: 1200px;
+    height: 900px;
+    background: black ;
+margin: auto; /*para que quede centrado*/
+margin-top: 15px; /*para que la imagen de arriba se corte la aprte superior*/
+}
+
+body 
+{
+
+    background: linear-gradient(#ffbda3, #cc6bbe);
+
+}
+header { width: 100%;
+    height: 200px;
+ 
+}
+
+#wikipedia {margin: -20px;
+text-indent: 52px;
+}
+
+p {    text-indent: 33px;
+    padding: 15px ;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+header p { /*para que tome los parrafos dentro del header*/
+    color: yellow;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size:16px ;
+    margin-right: 20px; /*distancia d ela linea al margen derecho*/
+    font-weight: bold;
+}
+
+
+.ico   /*para llamar al class se usa un punto . no un # */
+ {width: 30px;
+height: 30px;
+position: relative ; /*aviso que la posisicion de la imagen la elijo yo*/
+left: 1100px;
+margin-right: 15px;
+border-radius: 5px;
+}
+
+.ico:hover {box-shadow: 5px 10px 10px #cc6bbe;}
+/*para que aparezca una luz debajo del boton de fb e ig*/
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+
+
+main { 
+
+    width: 100%;
+    height: 200px;
+    background:black;}
+
+article {
+    
+    width: 80%;
+    /*height: 600px*/;
+    background:linear-gradient(#ffbda3, #cc6bbe); /*para q vaya en 2 colores en gradient*/
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;/*para cambiar la letra 
+    a lo que esta dentro de article*/
+    font-size: 15px;
+    
+}
+.ver-img { /*para modificar solo la foto del merchant*/
+            width: 188;
+            height: 304px;
+            float: right;
+            margin-left: 15px;
+            border: 5px solid #ec8;
+            border-radius: 50px;
+
+}
+
+article h2, article p .veo-img, h3 {
+                                margin: 10px;
+
+} 
+
+.veo-img1 {margin-top: 15px;
+    width: 95%;
+    height: 52px;
+  }
+
+aside li { 
+        margin-top: 25px;}
+
+
+aside  {
+    width: 20%;
+    height: 700px;
+    background: black;
+    float: left;
+    text-align:center;
+}
+
+aside ul {
+        width: 180px;
+        list-style: none;
+
+}
+#menuder {color: white;
+
+}
+
+
+aside li a {text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 10px;
+
+}
+footer {
+    
+    width: 100%;
+    height: 50px;
+    background: black;
+font-weight: bold;
+
+      
+}
+
+#lineafondo {padding: none;
+   
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    color: white;
+text-align: center;
+  }
+
+
+
+ul {
+     width: 200px;
+        list-style: none; /*para que desaparezca el punto de la lista*/
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+       margin: 40px;
+        }
+       
+       ul { /*para que dentro de menu modifique los li */
+       background: #0000;
+       width: 150px;
+       margin-top: 15px;       
+       }
+       
+      ul  a {
+           text-decoration: none; /*para quitar la linea de debajo del link*/
+    
+           padding: 10px 20px ;/*pongo 2 px el 1ero arriba
+            y abajo el 2do para los laterales*/
+            border: 1px solid black; /*para que tenga un borde color negro*/
+            
+       
+           }
+           ul a:hover {
+               background: #213043;
+               color:#ec8;
+               border: 1px solid white; /*para que tenga un borde color amarillo*/
+               border-radius: 4px; /*para que tenga una curva en als esquinas de 4px*/
+           border-top-right-radius: 15px; /*el borde de arriba a la derecha tenga 5px*/
+           border-bottom-left-radius: 15px;
+           }
+           
+
+.veo-img1 { 
+ }
+
+ #videoinicio{float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 15px;
+border: 5px solid #ec8;
+    border-radius: 10px ;
+
+ }

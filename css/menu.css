@@ -1,0 +1,34 @@
+
+#menu { width: 200px;
+    list-style: none; /*para que desaparezca el punto de la lista*/
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   display: flex; /* para que la lista se vea horizontal*/
+   margin: 100px;
+   }
+   
+   #menu li { /*para que dentro de menu modifique los li */
+   background: #0000;
+   width: 150px;
+   margin-top: 15px;
+   
+   
+   }
+   
+   #menu li a {
+       text-decoration: none; /*para quitar la linea de debajo del link*/
+       color: #fff;
+       padding: 10px 20px ;/*pongo 2 px el 1ero arriba
+        y abajo el 2do para los laterales*/
+        border: 1px solid black; /*para que tenga un borde color negro*/
+        
+   
+       }
+       #menu li a:hover {
+           background: #213043;
+           color: #ec8;
+           border: 1px solid white; /*para que tenga un borde color amarillo*/
+           border-radius: 4px; /*para que tenga una curva en als esquinas de 4px*/
+       border-top-right-radius: 15px; /*el borde de arriba a la derecha tenga 5px*/
+       }
+       
